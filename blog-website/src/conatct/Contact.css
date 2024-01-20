@@ -1,0 +1,26 @@
+.regular {
+    position: relative;
+
+}
+
+.regular::before {
+    content: "\201C";
+    position: absolute;
+    font-weight: bold;
+    font-size: 4em;
+    color: forestgreen;
+    top: -20px;
+    left: -50px;
+    font-family: Georgia, Times, serif;
+}
+
+.regular::after {
+    content: "\201D";
+    position: absolute;
+    font-weight: bold;
+    font-size: 4em;
+    color: forestgreen;
+    bottom: -30px;
+    right: -40px;
+    font-family: Georgia, Times, serif;
+}

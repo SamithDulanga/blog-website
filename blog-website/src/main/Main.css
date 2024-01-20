@@ -1,0 +1,5 @@
+
+
+.active >li {
+    @apply text-amber-500 underline underline-offset-4
+}
