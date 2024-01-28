@@ -3,3 +3,10 @@
 .active >li {
     @apply text-amber-500 underline underline-offset-4
 }
+
+.head {
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+
+}

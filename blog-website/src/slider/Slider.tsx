@@ -23,6 +23,7 @@ export function Slider({blogs}: SliderProps) {
             <Swiper
                 effect={'coverflow'}
                 grabCursor={true}
+                initialSlide={1}
                 centeredSlides={true}
                 slidesPerView={'auto'}
 
@@ -41,7 +42,7 @@ export function Slider({blogs}: SliderProps) {
 
                 {
                     blogs.slice(0,3).map((blog)=>(
-                        <SwiperSlide className="shadow-2xl">
+                        <SwiperSlide key={blog.id} className="shadow-2xl">
                             <img src={blog.image} />
                             <h1 className="text-xl text-center font-semibold">{blog.title}</h1>
                             <h1 className="text-2xl text-center font-bold">#{blog.id}</h1>

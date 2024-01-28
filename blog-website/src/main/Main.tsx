@@ -20,7 +20,7 @@ export function Main() {
     }
     return (
         <div >
-            <header className="text-white bg-black">
+            <header className=" sm:relative fixed w-full z-50   text-white bg-black">
                 <nav className="flex sm:justify-around justify-between items-center  py-5 px-5 ">
                     <div className="flex justify-center items-center gap-5">
 
@@ -30,8 +30,8 @@ export function Main() {
                     <div>
                         <ul className="flex justify-center items-center gap-5">
                             {
-                                navItems.map((item) => (
-                                    <NavLink key={item.navLink} to={item.navLink} >
+                                navItems.map((item,index) => (
+                                    <NavLink key={index} to={item.navLink} >
                                         <li className={`hidden sm:flex sm:text-xl font-semibold hover:text-amber-500 hover:cursor-pointer duration-300 block ${item.navLink === "home" ? "active" : ""}`}>
                                             {item.name}
                                         </li>
@@ -57,8 +57,8 @@ export function Main() {
 
                         {
 
-                            navItems.map((item)=>(
-                                <NavLink to={item.navLink}>
+                            navItems.map((item,index)=>(
+                                <NavLink to={item.navLink} key={index}>
                                 <li onClick={handleClick1} className={`duration-300 mb-2 text-black ${item.navLink === "home" ? "active" : ""}`}>{item.name}</li>
                                 </NavLink>
                             ))
@@ -69,7 +69,7 @@ export function Main() {
                 </div>
 
             </header>
-            <div className="flex justify-center">
+            <div >
                 <Outlet/>
             </div>
             <div className="flex justify-center bg-gray-800 ">
