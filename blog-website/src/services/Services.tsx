@@ -15,7 +15,7 @@ export function Services() {
             <div className="flex flex-col items-center justify-center gap-2  p-5 ">
                 <img src={Donation} className="w-[450px] rounded-2xl shadow-2xl drop-shadow-2xl"/>
 
-                <a href="https://www.vecteezy.com/free-vector/book-donation">Book Donation Vectors by Vecteezy</a>
+                <a href="https://www.vecteezy.com/free-vector/book-donation">Image Credit : Book Donation Vectors by Vecteezy</a>
 
             </div>
 

@@ -3,6 +3,7 @@ import {NavLink, useParams} from 'react-router-dom';
 import {FaClock} from "react-icons/fa";
 import {GiClick} from "react-icons/gi";
 import {SideBar} from "../sideBar/SideBar.tsx";
+import {NotFound} from "../not-found/NotFound.tsx";
 
 const baseUrl="/api/v1/blogs";
 interface Blog {
@@ -94,7 +95,8 @@ export function SingleBlog() {
                 </div>
 
             ) : (
-                <p>No blog found</p>
+
+                <NotFound/>
             )}
 
         </div>
