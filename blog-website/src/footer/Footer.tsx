@@ -99,7 +99,7 @@ export function Footer() {
                 </div>
                 <div className="py-3 flex flex-col sm:flex-row justify-between items-center px-5">
                     <div className="px-5 text-center">
-                        <h1>Copyright &copy; 2023 ThingsToKnow.All Rights Reserved. </h1>
+                        <h1>Copyright &copy; 2024 ThingsToKnow.All Rights Reserved. </h1>
 
                     </div>
                     <div  className="flex flex-col sm:flex-row justify-center items-center py-3 gap-5 px-5" >
