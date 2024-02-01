@@ -61,8 +61,6 @@ The ThingsToKnow Blog is a web platform dedicated to complementing the content o
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
 
----
-
 ## Contact
 
 If you have any questions, feedback, or would like to connect with me, please feel free to reach out through the following channels:
