@@ -49,7 +49,7 @@ The ThingsToKnow Blog is a web platform dedicated to complementing the content o
 4. Start the application:
 
    ```shell
-   pnpm run dev
+   npm run dev
    ```
 
 
