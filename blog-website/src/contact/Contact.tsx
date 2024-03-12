@@ -48,7 +48,7 @@ export function Contact() {
             </div>
             </div>
 
-        <div className="w-full flex flex-col  items-center justify-evenly lg:flex-row max-w-7xl mx-auto ">
+        <div className="w-full flex flex-col  sm:items-center justify-evenly lg:flex-row max-w-7xl mx-auto ">
             <div className="p-10 flex flex-col items-center justify-center sm:w-[600px] w-full mt-10 ">
 
                 <h1 className="regular text-xl w-1/2 font-bold text-center  flex items-center">We value your input! If you have any suggestions or comments about the content on our website, we are eager to hear from you. Your feedback is crucial in helping us enhance our services for the future. Feel free to share your thoughts – we're committed to providing the best possible experience, and your input is invaluable to us! </h1>

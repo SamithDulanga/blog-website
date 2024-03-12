@@ -6,7 +6,7 @@ export function About() {
             <div className="px-4 py-20 bg-black w-full">
                 <div className="text-white  text-center">
                     <h1 className="lg:text-7xl text-5xl leading-snug font-bold">About Us</h1>
-                    <p className="text-gray-100 lg:w-3/5 mx-auto text-xl mt-3 font-primary">
+                    <p className="text-gray-100 lg:w-3/5 w-full mx-auto text-xl mt-3 font-primary">
                         What We are Going to Offer.
                     </p>
                 </div>
