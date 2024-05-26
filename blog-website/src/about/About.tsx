@@ -30,7 +30,7 @@ export function About() {
                         </div>
                         <div className="flex flex-col justify-center items-center">
                             <h1 className="text-2xl text-center font-bold border-2 p-3 mb-2 rounded-2xl hover:scale-110 duration-300 ">Things To Know</h1>
-                            <h1>Click on below link</h1>
+                            <h1 className="text-center">Click on below link</h1>
                             <Link to="https://www.youtube.com/@thingstoknow5847" className="text-sm hover:scale-110 duration-300 px-5 flex items-center underline-offset-2 underline" target="_blank">thingstoknow</Link>
                             <h1 className="text-center flex flex-row text-[16px]">Don't forget to subscribe our channel</h1>
                         </div>
